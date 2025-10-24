@@ -7,16 +7,13 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "dev": "tsx src/index.ts",
     "start": "tsx src/index.ts",
     "clean": "rimraf build",
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.json",
-    "build:watch": "tsc -w -p tsconfig.json",
     "lint": "eslint src",
     "test": "vitest run unit --config tests/vitest.config.ts",
-    "test:coverage": "vitest run unit --config tests/vitest.config.ts --coverage.enabled --coverage.all",
-    "test:watch": "vitest unit"
+    "test:coverage": "vitest run unit --config tests/vitest.config.ts --coverage.enabled --coverage.all"
   },
   "dependencies": {
     "@warden-community-agents/common": "^1.0.0",

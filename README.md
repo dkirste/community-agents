@@ -8,8 +8,6 @@ A monorepo for Warden community agents built with TypeScript, featuring AI-power
 
 - Node.js 20+
 - Yarn package manager
-- OpenAI API key
-- CoinGecko API key (for coingecko-agent package)
 
 ### Installation
 

@@ -1,4 +1,3 @@
-// Example logger utility
 export class Logger {
   constructor(private name: string) {}
 
