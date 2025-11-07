@@ -10,7 +10,7 @@ All documentation can be found in the `docs/` directory.
 
 Each agent in the `agents/` directory is completely self-sufficient and comes with its own:
 - Dependencies and devDependencies
-- Configuration files (tsconfig.json, eslint.config.mjs, .prettierrc, .editorconfig)
+- Configuration files
 - Build scripts
 - Tests
 
